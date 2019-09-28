@@ -1,0 +1,56 @@
+*
+{
+	/* browser specific prefixes */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+
+	/* This setting includes padding and border
+	 * in an element's total width and height.
+	 * To ensure that it works in all browsers,
+	 * add the browser-specific prefixes above.
+	 */
+	box-sizing: border-box;
+}
+
+/* ensures that the elements don't overflow */
+img, embed, object, video 
+{
+	max-width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+.header {
+	background-color: grey;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.archive {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 200px);
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+	margin: 5%;
+}
+
+.blog {
+	background-color: yellow;
+}
+
+.pagination {
+	display: block;
+}
+
+.footer {
+	display: block;
+}
