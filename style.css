@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
+
+
 *
 {
 	/* browser specific prefixes */
@@ -11,6 +14,7 @@
 	 * add the browser-specific prefixes above.
 	 */
 	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* ensures that the elements don't overflow */
@@ -23,34 +27,80 @@ body {
 	margin: 0;
 }
 
-.header {
-	background-color: grey;
-	display: flex;
-	justify-content: space-between;
+h3 {
+	font-size: 22px;
+	font-weight: 800;
 }
 
-.nav {
-	display: flex;
-	justify-content: flex-end;
+p {
+	font-size: 14px;
 }
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #0795e6;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 2% 5%;
+}
+
+
 
 .archive {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 200px);
-	grid-column-gap: 15px;
-	grid-row-gap: 15px;
-	margin: 5%;
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 25px;
+	grid-row-gap: 25px;
+	margin: 5% 10%;
 }
 
 .blog {
-	background-color: yellow;
+	border: 1px solid #f3f3f3;
+}
+
+.blog-meta {
+	padding: 5%;
+}
+
+.blog-category {
+	color: #0795e6;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.blog-title {
+	margin: 0;
+}
+
+
+.button {
+	background-color: #0795e6;
+	color: white;
+	font-size: 14px;
+	padding: 3%;
+	text-align: center;
 }
 
 .pagination {
-	display: block;
+	margin: 5%;
+	text-align: center;
+
 }
 
 .footer {
-	display: block;
+	background-color: #0795e6;
+	color: white;
+	text-align: center;
+	padding: 5%;
 }
+
+.fa-instagram {
+	margin: 0px 5px;	
+}
+
