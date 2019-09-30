@@ -6,4 +6,11 @@
 		grid-row-gap: 50px;
 		margin: 10%;
 	}
+
+	.content {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 10%;
+	}
+
 }

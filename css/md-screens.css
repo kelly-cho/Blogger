@@ -9,4 +9,10 @@
 		margin: 5% 10%;
 	}
 
+	.content {
+		display: grid;
+		grid-template-columns: 70% 1fr;
+		margin: 5% 10%;
+	}
+
 }
