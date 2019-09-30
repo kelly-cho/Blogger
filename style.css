@@ -28,6 +28,14 @@ body {
 	margin: 0;
 }
 
+h1 {
+
+}
+
+h2 {
+	
+}
+
 h3 {
 	font-size: 22px;
 	font-weight: 800;
@@ -83,6 +91,10 @@ a {
 	font-size: 14px;
 	padding: 3%;
 	text-align: center;
+}
+
+.button:hover {
+	background-color: #57c0fc;	
 }
 
 .footer {
