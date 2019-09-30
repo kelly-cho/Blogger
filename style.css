@@ -1,9 +1,9 @@
 @import './css/sm-screens.css';
 @import './css/md-screens.css';
 @import './css/lg-screens.css';
+@import './css/post-style.css';
 
-*
-{
+* {
 	/* browser specific prefixes */
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -19,8 +19,7 @@
 }
 
 /* ensures that the elements don't overflow */
-img, embed, object, video 
-{
+img, embed, object, video {
 	max-width: 100%;
 }
 
@@ -30,17 +29,24 @@ body {
 
 h1 {
 	font-size: 30px;
-	margin-top: 0;
+	margin: 0.1em 0;
 	font-weight: 800;
 }
 
 h2 {
 	font-size: 25px;
+	font-weight: 800;
 }
 
 h3 {
 	font-size: 22px;
 	font-weight: 800;
+}
+
+h4 {
+	font-size: 18px;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
 }
 
 p {
@@ -49,6 +55,7 @@ p {
 }
 
 a {
+	color: #0795e6;	
 	text-decoration: none;
 }
 
@@ -109,14 +116,4 @@ a {
 
 .fa-instagram {
 	margin: 0px 5px;
-}
-
-/* styles for post.html */
-.article {
-	padding: 0 5%;
-}
-
-.sidebar {
-	background-color: #e1f4ff;
-	padding: 0 8%;
 }

@@ -1,0 +1,54 @@
+.article {
+	padding: 0 5%;
+}
+
+.publish-date {
+	color: #adadad;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.author {
+	align-items: center;
+	display: flex;
+	margin: 20px 0;
+}
+
+.avatar {
+	border-radius: 50px;
+	margin-right: 15px;
+	width: 50px;
+}
+
+.bio {
+	display: flex;
+	flex-direction: column;
+}
+
+.author-name {
+	color: #0795e6;
+	font-size: 16px;
+}
+
+.author-info {
+	color: #adadad;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.author-description {
+	font-size: 14px;
+}
+
+.sidebar {
+	background-color: #e1f4ff;
+	padding: 0 8%;
+}
+
+.archives,
+.categories {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5em;
+}
+
