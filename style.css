@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap');
-
+@import './css/sm-screens.css';
+@import './css/md-screens.css';
+@import './css/lg-screens.css';
 
 *
 {
@@ -41,6 +42,7 @@ a {
 }
 
 .header {
+	align-items: center;
 	background-color: #0795e6;
 	color: white;
 	display: flex;
@@ -48,19 +50,16 @@ a {
 	padding: 2% 5%;
 }
 
-
-
-.archive {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-column-gap: 25px;
-	grid-row-gap: 25px;
-	margin: 5% 10%;
+.logo {
+	padding: 5px;
+	width: 125px;
 }
 
 .blog {
 	border: 1px solid #f3f3f3;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .blog-meta {
@@ -78,19 +77,12 @@ a {
 	margin: 0;
 }
 
-
 .button {
 	background-color: #0795e6;
 	color: white;
 	font-size: 14px;
 	padding: 3%;
 	text-align: center;
-}
-
-.pagination {
-	margin: 5%;
-	text-align: center;
-
 }
 
 .footer {
