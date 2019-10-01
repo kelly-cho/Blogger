@@ -29,16 +29,18 @@ body {
 
 h1 {
 	font-size: 30px;
-	margin: 0.1em 0;
 	font-weight: 800;
+	margin: 0.1em 0;
 }
 
 h2 {
+	color: #0795e6;
 	font-size: 25px;
 	font-weight: 800;
 }
 
 h3 {
+	color: #0795e6;
 	font-size: 22px;
 	font-weight: 800;
 }
@@ -52,10 +54,12 @@ h4 {
 p {
 	font-size: 15px;
 	line-height: 1.5em;
+	margin: 0.5em 0;
 }
 
 a {
 	color: #0795e6;	
+	font-size: 15px;
 	text-decoration: none;
 }
 
@@ -112,8 +116,4 @@ a {
 	color: white;
 	text-align: center;
 	padding: 5%;
-}
-
-.fa-instagram {
-	margin: 0px 5px;
 }
