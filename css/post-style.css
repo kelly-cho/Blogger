@@ -41,6 +41,11 @@
 	text-decoration: underline;
 }
 
+.caption {
+	font-size: 12px;
+	text-align: center;
+}
+
 .quote {
 	background-color: #e1f4ff;
 	border-left: 3px solid #0795e6;
